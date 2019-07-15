@@ -1,39 +1,96 @@
-body {
-  background-color: #FFCC00;
-  padding: 20px;
-  margin: 0;
+html, body {
+  width: 100%;
+  height: 100%;
 }
+
+body {
+  margin: 0 0 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    
+  background-color: #333;
+  /* background-image: linear-gradient(#FFF, white); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.Main-Content{
+  padding: 0px;
+}
+
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
-ul.header li {
-  display: inline;
+ul.navBar li {
+  display: inline-block;
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 0;
 }
-ul.header {
-  background-color: #111;
+
+ul.navBar li:hover {
+  background-color: #333;
+  height: 54px;
+}
+
+ul.navBar {
+  background-color: #20B2AA	;
   padding: 0;
+  /* box-shadow: inset 0 0 10px #000000; */
 }
-ul.header li a {
+ul.navBar li a {
   color: #FFF;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
 }
-.content {
+
+.body {
   background-color: #FFF;
   padding: 20px;
 }
-.content h2 {
+.body h2 {
   padding: 0;
   margin: 0;
 }
-.content li {
+.body li {
   margin-bottom: 10px;
 }
 
 .active {
   background-color: #0099FF;
+  height: 14px;
+}
+
+.btn-wrap{
+  position: relative;
+  text-align: center;
+}
+
+#buttonInscreva{
+  background-color: #66CDAA; /* Green */
+  border: none;
+  position: relative;
+  color: white;
+  /* padding: 15px 32px; */
+  height: 50px;
+  width: 120px;
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  font-size: 16px;
+  /* z-index: 100; */
+  /* margin: -120px 0 0 -30px; */
+  /* top: -450px; */
+  
+  border:0 none;
 }

@@ -1,0 +1,13 @@
+
+div.galeria{
+    text-align: center;
+}
+
+ul.linha1 {
+    text-align: center;
+}
+
+ul.linha1 li {
+    display: inline-block;
+    padding: 30px;
+}
