@@ -9,18 +9,13 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     
-  background-color: #333;
-  /* background-image: linear-gradient(#FFF, white); */
+  background-color: #4e270c;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.header {
-  margin-top: -20px;
-  margin-bottom: -20px;
 }
 
 .Main-Content{
@@ -30,50 +25,65 @@ code {
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
+
+ul.navBar {
+  background-color: darkcyan;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 0;
+}
+
 ul.navBar li {
   display: inline-block;
   list-style-type: none;
-  margin: 0 0 0 0;
+  margin: 0 0;
 }
 
-ul.navBar li:hover {
-  background-color: #333;
-  height: 54px;
-}
-
-ul.navBar {
-  background-color: #20B2AA	;
-  padding: 0;
-  /* box-shadow: inset 0 0 10px #000000; */
-}
 ul.navBar li a {
-  color: #FFF;
+  color: white;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
 }
 
-.body {
-  background-color: #FFF;
+ul.navBar li:hover {
+  background-color: lightseagreen
+}
+
+a.active {
+  background-color: #00D0D0;
+}
+
+.header .container{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .container .background{
+  max-width: 100%;
+}
+
+.header .container .logo {
+  max-width: 25%;
   padding: 20px;
+  z-index: 1;
+  position: absolute;
+  background: #20B2ABB3
+}
+
+.body {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
 }
 .body h2 {
-  padding: 0;
   margin: 0;
 }
 .body li {
   margin-bottom: 10px;
-}
-
-.active {
-  background-color: #0099FF;
-  height: 14px;
-}
-
-.btn-wrap{
-  position: relative;
-  text-align: center;
 }
 
 #buttonInscreva{

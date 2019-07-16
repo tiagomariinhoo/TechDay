@@ -5,7 +5,7 @@ import{
 } from "react-router-dom";
 
 import backgroundHeader from './imgs/background-header2.jpg';
-
+import logo from './imgs/TechDayLogo.png';
 import Principal from "./Components/Principal/Principal";
 import Contato from "./Components/Contato/Contato";
 import Equipe from "./Components/Equipe/Equipe";
@@ -17,15 +17,13 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <div className = "btn-wrap">
-                    <img id = "backgroundHeader" src={backgroundHeader} alt = "Persona"></img>
-                </div>
-
                 <HashRouter>
                     <div className="Main-Content">
-                        
-
                         <header className="header">
+                            <div className="container">
+                                <img className="background" src={backgroundHeader} alt="background"/>
+                                <img className="logo" src={logo} alt="logo"/>
+                            </div>
                             <ul className="navBar">
                                 <li><NavLink exact to="/">Principal</NavLink></li>
                                 <li><NavLink to="/techjobs">TechJobs</NavLink></li>
