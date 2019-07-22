@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 
+import Slider from './Slider/slider';
+
 class Techtrends extends Component {
     render() {
         return (
@@ -14,6 +16,7 @@ class Techtrends extends Component {
                 <li>Eget erat</li>
                 <li>Id porttitor</li>
                 </ol>
+                <Slider />
             </div>
         );
     }
