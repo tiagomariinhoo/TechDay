@@ -11,7 +11,7 @@ class Equipe extends Component{
                     <li>
                         <div className="card">
                         <img src={persona} alt="Avatar"/>
-                            <div className="container">
+                            <div className="leg">
                                 <h4><b>John Doe</b></h4> 
                                 <p>Architect & Engineer</p> 
                             </div>
@@ -21,7 +21,7 @@ class Equipe extends Component{
                     <li>
                         <div className="card">
                         <img src={persona} alt="Avatar"/>
-                            <div className="container">
+                            <div className="leg">
                                 <h4><b>John Doe</b></h4> 
                                 <p>Architect & Engineer</p> 
                             </div>
@@ -31,7 +31,7 @@ class Equipe extends Component{
                     <li>
                         <div className="card">
                         <img src={persona} alt="Avatar"/>
-                            <div className="container">
+                            <div className="leg">
                                 <h4><b>John Doe</b></h4> 
                                 <p>Architect & Engineer</p> 
                             </div>
@@ -41,7 +41,7 @@ class Equipe extends Component{
                     <li>
                         <div className="card">
                         <img src={persona} alt="Avatar"/>
-                            <div className="container">
+                            <div className="leg">
                                 <h4><b>John Doe</b></h4> 
                                 <p>Architect & Engineer</p> 
                             </div>
@@ -51,7 +51,7 @@ class Equipe extends Component{
                     <li>
                         <div className="card">
                         <img src={persona} alt="Avatar"/>
-                            <div className="container">
+                            <div className="leg">
                                 <h4><b>John Doe</b></h4> 
                                 <p>Architect & Engineer</p> 
                             </div>
