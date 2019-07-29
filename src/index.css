@@ -8,9 +8,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-    
+
   background-color: #4e270c;
   background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  background-attachment: fixed;
+  background-position: center;
+  
 }
 
 code {
@@ -22,16 +25,33 @@ code {
   padding: 0px;
 }
 
+hr{
+  margin: 10px;
+}
+
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
 
 ul.navBar {
-  background-color: darkcyan;
+  /*background-color: darkcyan;*/
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 0 0;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+ul.navBar.with-background {
+  background-color: #4e270c;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+}
+
+ul.navBar li#Home {
+  margin-right: 15%;
 }
 
 ul.navBar li {
@@ -40,38 +60,38 @@ ul.navBar li {
   margin: 0 0;
 }
 
-ul.navBar li a {
+ul.navBar li {
   color: white;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
+  cursor: pointer;
 }
 
 ul.navBar li:hover {
-  background-color: lightseagreen
+  color: rgba(31, 177, 170, 0.6);
 }
 
-a.active {
-  background-color: #00D0D0;
+ul.navBar li.active {
+  color: rgba(0, 208, 208, 0.8);
 }
 
-.header .container{  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header .container .background{
-  max-width: 100%;
-}
-
-.header .container .logo {
+.header .logo {
   max-width: 25%;
   padding: 20px;
-  z-index: 1;
-  position: absolute;
   background: #20B2ABB3;
+  margin: 150px;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  background-image: url(./imgs/background-header2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 .body {
@@ -85,23 +105,4 @@ a.active {
 }
 .body li {
   margin-bottom: 10px;
-}
-
-#buttonInscreva{
-  background-color: #66CDAA; /* Green */
-  border: none;
-  position: relative;
-  color: white;
-  /* padding: 15px 32px; */
-  height: 50px;
-  width: 120px;
-  /* text-align: center; */
-  /* text-decoration: none; */
-  /* display: inline-block; */
-  font-size: 16px;
-  /* z-index: 100; */
-  /* margin: -120px 0 0 -30px; */
-  /* top: -450px; */
-  
-  border:0 none;
 }

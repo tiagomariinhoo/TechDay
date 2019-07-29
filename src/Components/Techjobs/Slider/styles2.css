@@ -17,3 +17,8 @@ div.sliderDiv {
 .sliderBar {
     text-align: center;
 }
+
+.aws-sld__bullets{
+    position: relative;
+    bottom: -2.5px;
+}

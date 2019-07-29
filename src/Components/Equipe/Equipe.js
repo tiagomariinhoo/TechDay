@@ -5,7 +5,7 @@ import './equipe.css';
 class Equipe extends Component{
     render(){
         return(
-            <div className = "galeria">
+            <div className="galeria">
                 <h3>TechJobs</h3>
                 <ul className = "linha1">
                     <li>
