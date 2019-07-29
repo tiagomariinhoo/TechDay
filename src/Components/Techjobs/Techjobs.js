@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-import Slider from './Slider/slider';
+import Slider from '../Slider/slider';
 
 class Techjobs extends Component {
     render() {

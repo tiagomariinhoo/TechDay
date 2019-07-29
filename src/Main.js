@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+
 import logo from './imgs/TechDayLogo.png';
 import Principal from "./Components/Principal/Principal";
 import Contato from "./Components/Contato/Contato";
